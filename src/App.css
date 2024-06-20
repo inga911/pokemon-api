@@ -1,0 +1,29 @@
+.each-pokemon {
+  border: 1px solid lightgray;
+  width: 150px;
+  height: 180px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.all-pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.filter-box {
+  background-color: antiquewhite;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.weight-filter,
+.height-filter {
+  display: flex;
+}
